@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ecd3b3;
+}
+
+body .wrapper {
+  width: 728px;
+  height: calc(651px - 112px);
+  padding: 56px;
+  gap: 0px;
+  border-radius: 24px 24px 200px 24px;
+  background-color: white;
+}
+
+body .wrapper .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: calc(728px - 184px);
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .wrapper .inputs div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 160px;
+}
+
+body .wrapper .inputs div label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.25em;
+  text-align: left;
+  opacity: 0.7;
+}
+
+body .wrapper .inputs div input {
+  border: none;
+  padding: 12px 24px 12px 24px;
+  border-radius: 8px;
+  border: 1px solid #878080;
+  opacity: 0px;
+  outline: none;
+  margin-top: 8px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+body .wrapper .button_section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .button_section div {
+  width: 90%;
+  height: 1px;
+  background-color: #c5b9b9;
+  opacity: 0.5;
+}
+
+body .wrapper .button_section button {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #854dff;
+  border: none;
+}
+
+body .wrapper .text h2 {
+  font-family: Poppins;
+  font-size: 104px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 114.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+body .wrapper .text h2 span {
+  color: #854dff;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
